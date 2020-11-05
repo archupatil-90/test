@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #fe525b;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav{
+    position: fixed;
+    top:35px;
+    width:100%;
+    height:70px;
+   background-color: white;
+    
+
+}
+ul{
+    position: fixed;
+    top: 10px;
+    left: 290px;
+}
+nav ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    text-transform: capitalize;
+    width: 110px;
+    font-size: 15px;
+    text-align: center;
+    
+    
+
+}
+#img{
+    position: relative;
+    top: 15px;
+    right: 10px;
+    
+    width: 50px;
+    height: 50px;
+}
+.m4{
+    width: 165px;
+    
+    padding: 0px 15px;
+    font-size: 20px;
+}
+nav ul li::before{
+   
+   
+    content: '';
+    top:50px;
+    width:0px;
+    height:0px;
+    position: absolute;
+   
+   
+   
+   
+}
+nav ul li:hover{
+    
+    width:100px;
+    height:10px;
+    background-color: red;
+    position: absolute;
+    top:50px;
+}
+.main{
+   
+    width: 100%;
+    height: 100vh;
+   
+    background-image: url(back1.jpg);
+    background-size: cover;
+    background-position: center right;
+    
+   
+    
+}
+.counterbox{
+    width: 100%;
+    color: white;
+    position: absolute;
+    padding-top: 215px;
+   
+    text-align: center;
+    
+   
+}
+
+h2{
+    font-weight: normal;
+    font-size: 25px;
+   
+}
+ h1{
+    
+    font-size: 50px;
+}
+.summerin{
+    width: 100%;
+    height: 60vh;
+    
+    text-align: center;
+    text-transform:uppercase;
+    
+    padding-top: 100px;
+}
+.summerin h2{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    left:35%;
+    
+}
+.summerin h2::before{
+    content: '';
+    width: 70px;
+    height: 7px;
+    border-bottom: 5px solid #cfa417;
+    position: absolute;
+    left: 193px;
+    top: 45px;
+}
+.subdiv{
+    width:50%;
+    margin: auto;
+   
+    margin-top: 130px;
+}
+.subdiv .box{
+    width: 19%;
+    height: 125px;
+    background-color: #EF9DB5;
+    float: left;
+    margin: 20px;
+}
+ .number{
+    width: 100%;
+    height: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    text-transform: none;
+    letter-spacing: 0px;
+    word-spacing: 0;
+    line-height: 1.3;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+    top: 8px;
+ }
+ .day{
+
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    
+    position: relative;
+    top: 55px;
+   font-size: 15px;
+   padding-top: 10px;
+    right: 30px;
+}
+.gallerybox{
+    width:100%;
+    height: 100vh;
+   margin-bottom: 5%;
+   
+}
+.gallery{
+    width:90%;
+    height:40vh;
+    margin: auto;
+}
+.block{
+    
+    width:23.33%;
+    height:250px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    background-color: tomato;
+    float: left;
+   
+}
+.img1{
+    background-image: url(g1.png);
+    background-size: cover;
+}
+.img2{
+    background-image: url(g1.jpg);
+    background-size: cover;
+}
+.img3{
+    background-image: url(g3.png);
+    background-size: cover;
+}
+.img4{
+    background-image: url(g1.jpg);
+    background-size: cover;
+}
+.img5{
+    background-image: url(h5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img6{
+    background-image: url(g6.jpg);
+    background-size: cover;
+}
+.img7{
+    background-image: url(g7.jpg);
+    background-size: cover;
+}
+.img8{
+    background-image: url(g8.jpg);
+    background-size: cover;
+}
+
+.block1{
+    position: relative;
+    width: 22%;
+    height: 9%;
+    top:0;
+    left:0;
+    margin: 0;
+    text-align: center;
+    background-color: #fe525b;
+    
+   
+}
+p{
+   
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+}
+.summercoll{
+    width: 100%;
+    height:300px;
+background-color: #63a17f;
+text-align: center;
+color: white;
+padding-top: 5%;
+
+text-transform: uppercase;
+
+}
+.display{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.display2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.button{
+    height: 35px;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+    overflow: hidden;
+    left:460px;
+    text-transform: uppercase;
+}
+.button::before{
+    width: 0px;
+    height: 0px;
+    content: '';
+    background-color:#33333340;
+    position: absolute;
+    left: 80px;
+    top: 15px;
+    border-radius: 100px;
+    transition: 1s;
+    
+    
+   
+}
+.button:hover::before{
+    width:150px;
+    height:35px;
+    border-radius: 100px;
+    left:0px;
+    top:0px;
+    background-color:#33333340;
+}
+.button2{
+    height: 35px;
+    width: 170px;
+    border-radius: 100px;
+   border-color: white;
+    position: absolute;
+    overflow: hidden;
+    left:640px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.button2::before{
+    width: 0px;
+    height: 0px;
+    content: '';
+color: black;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+    border-radius: 100px;
+    transition: 1s;
+   
+    
+    
+   
+}
+.button2:hover::before{
+    width:170px;
+    height:35px;
+    border-radius: 100px;
+    left:0px;
+    top:0px;
+    background-color:#ffffff40;
+    color: black;
+
+}
+.payment{
+    width:78%;
+    margin-bottom: 8%;
+    padding-top: 100px;
+}
+.payment h2{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    left:35%;
+    
+    
+}
+.payment h2::before{
+    content: '';
+    width: 70px;
+    height: 7px;
+    border-bottom: 5px solid #cfa417;
+    position: absolute;
+    left: 193px;
+    top: 45px;
+}
+.payment ul{
+    position: relative;
+    list-style-type: none;
+    top:120px;
+}
+.payment ul li{
+    display: inline;
+    
+}
+ul li img{
+    width:70px;
+    height:50px;
+    margin: 0px 8px;
+}
+.row2{
+    width:50%;
+    margin: auto;
+}
