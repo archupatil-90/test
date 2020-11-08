@@ -51,26 +51,16 @@ nav ul li{
 }
 .m4{
     width: 165px;
-    
     padding: 0px 15px;
     font-size: 20px;
 }
 nav ul li::before{
-   
-/*    
-    content: '';
-    top:50px;
-    width:0px;
-    height:0px;
-    position: absolute;
-   top:50px; */
-   
+    
    content: '';
     width: 0px;
     height: 0px;
     border-bottom: 5px solid #cfa417;
     position: absolute;
-    
     top: 50px;
    
 }
@@ -100,7 +90,6 @@ nav ul li:hover::before{
     color: white;
     position: absolute;
     padding-top: 215px;
-   
     text-align: center;
     
    
